@@ -3,4 +3,5 @@ module.exports = {
 	preset: '@vue/cli-plugin-unit-jest',
 	testEnvironment: 'jsdom',
 	testMatch:["**/src/JSTests/*.test.js"],
+	setupFilesAfterEnv: ['<rootDir>/jest-setup.js'],
   }
